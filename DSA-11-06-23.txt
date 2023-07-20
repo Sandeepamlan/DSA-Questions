@@ -1,0 +1,62 @@
+Mini Median
+
+Problem Statement
+
+ 
+
+Given an array A consisting of N integers. N is guaranteed to be even.
+
+Median of an array B of length L is defined as the (L+1)/2th largest value present in the array.
+
+Like median of array [5,1,2,4,3] = 3, array [1,1,2,4,5] = 2 and so on.
+
+You are allowed to remove exactly one integer from the given array. Print the minimum possible median of the final array obtained by deleting exactly one element from array A.
+
+ 
+
+Input Format
+
+ 
+
+First line contains a single integer denoting N.
+Next line contains N space separated integers denoting the elements of array A.
+ 
+
+Output Format
+
+ 
+
+Print the minimum possible median of the final array obtained by deleting exactly one element from array A.
+ 
+
+Constraints
+
+ 
+
+1<=N<=10^5
+1<=Ai<=10^9
+ 
+
+Sample Input 1
+
+ 
+
+4
+
+2 4 4 3
+
+ 
+
+Sample Output 1
+
+ 
+
+3
+
+ 
+
+Explanation of Sample 1
+
+ 
+
+If we delete the 3rd element, i.e 4 , array becomes = [2,4,3]. Median of this array = 3.

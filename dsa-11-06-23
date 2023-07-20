@@ -1,0 +1,70 @@
+Question Name: Delete Numbers
+Problem Statement
+
+
+
+Consider the number line consisting of all integers from (-infinity to +infinity).
+
+
+
+Antonio, the witch did some black magic and deleted all the integers P1, P2 … PN from this number line. Here P is an array consisting of N integers.
+
+
+
+Given an integer M, find an integer from the final number line which is nearest to M. i.e. Absolute difference of that integer and M should be minimum. If there are many possible integers, print the smallest one.
+
+
+
+See sample explanation for more clarity on the question.
+
+
+
+
+
+Input Format
+
+
+
+First line contains two space separated integers denoting N and M.
+Next line contains N space separated integers denoting elements of array P.
+
+
+
+
+Output Format
+
+
+
+Print an integer from the final number line which is nearest to M. If there are many possible integers, print the smallest one.
+
+
+
+
+Constraints
+
+
+
+1<=N<=2*105
+-109<=Pi<=109. Note that all Pi are not necessarily distinct.
+-109<=M<=109
+
+
+
+
+Sample Input 1
+
+
+
+5 6
+
+4 7 10 6 5
+
+
+
+
+
+Sample Output 1
+
+
+
+8

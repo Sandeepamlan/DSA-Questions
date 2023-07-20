@@ -1,0 +1,45 @@
+Question Name: Matrix XOR
+
+Problem Statement
+
+Antonio and Sherlock each have an array of length N. Let’s say Antonio has array A, and Sherlock has array B.
+
+Because they are friends, they decided to merge these arrays into a matrix C. Matrix C has N rows and N columns. The element in the ith row and jth column is the sum of the ith element of array A and jth element of array B.
+
+Now they want to know the Bitwise XOR of all elements of array C. Help them in finding it!
+
+Input Format
+
+First line contains a single integer denoting N.
+Next line contains N space separated integers denoting elements of array A.
+Next line contains N space separated integers denoting elements of array B.
+Output Format
+
+Print the Bitwise XOR of all elements of array C.
+Constraints
+
+1<=N<=10^5
+1<=Ai, Bi<=10^5
+Sample Input 1
+
+3
+
+2 4 8
+
+1 2 3
+
+Sample Output 1
+
+14
+
+Explanation of Sample 1
+
+Array C = [2+1 2+2 2+3] = [3 4 5]
+
+[4+1 4+2 4+3] [5 6 7]
+
+[8+1 8+2 8+3] [9 10 11]
+
+Now XOR of all elements = 3^4^5^5^6^7^9^10^11 = 14
+
+ 
